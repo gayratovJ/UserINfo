@@ -1,0 +1,33 @@
+* {
+  padding: 0;
+  margin: 0;
+  text-decoration: none;
+  list-style: none;
+  box-sizing: border-box;
+}
+
+.container {
+  max-width: 1440px;
+  padding: 0px 16px;
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.body .container .row .card_wrapper .card .card-body {
+  background-color: gray;
+}
+.body .container .row .card_wrapper .card .card-body h2.card-title {
+  font-size: 18px;
+  line-height: 27px;
+  color: white;
+  font-weight: 700;
+}
+.body .container .row .card_wrapper .card .card-body h3.text-muted {
+  font-size: 16px;
+  line-height: 27px;
+  font-weight: 600;
+  color: white;
+}
